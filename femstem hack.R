@@ -1,7 +1,3 @@
-# each component window of R studio- editor, console, workspace/environment, 
-# practice using commands, then creating and naming variables
-# data classes-- numeric, character, factor 
-# data structures-- data frame, matrix, list, vector
 
 1 + 1
 2 * 3
@@ -16,25 +12,20 @@ z <- x + y
 a <- "science"
 a <- as.factor(a)
 
-# R syntax: name <- function(args)
-
-matrix(c(1:6), nrow=2, ncol=3)
-matrix(c(1:6), nrow=2, ncol=3, dimnames = list(c("row1", "row2"), 
-                                              c("col1", "col2", "col3")))
-
-mat <- matrix(c(1:6), nrow=2, ncol=3)
+# R syntax: name <- function(arg)
 
 # Reading data and basic functions
 
 getwd()
 setwd()
-?
-
-iris <- iris
+?blah
+??"blah blah blah"
 
 read.csv()
 read.table()
 readLines()
+
+iris <- iris
 
 # functions for looking at data structure
 class()
@@ -47,10 +38,6 @@ length()
 ncol()
 nrow()
 
-names(iris)
-head(iris)
-dim(iris)
-
 # using [] indexing to identify rows, columns, cells
 # $ operand
 
@@ -59,12 +46,18 @@ unique(iris[,"Species"])
 levels(iris[,"Species"])
 unique(iris[,"Sepal.Length"])
 
+unique(iris$Sepal.Length)
+levels(iris$Species)
+
 
 # measures of central tendency 
 
-max(iris[,"Sepal.Length"])
-min(iris[,"Sepal.Length"])
-mean(iris[,"Sepal.Length"])
+max(iris$Sepal.Length)
+min(iris$Sepal.Length)
+
+mean(iris$Sepal.Length)
+sd(iris$Sepal.Length)
+
 
 
 # subsetting data
