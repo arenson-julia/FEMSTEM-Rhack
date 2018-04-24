@@ -51,7 +51,7 @@ names(iris)
 head(iris)
 dim(iris)
 
-# using [] to identify rows, columns, cells
+# using [] indexing to identify rows, columns, cells
 # $ operand
 
 iris[,"Species"]
@@ -83,7 +83,10 @@ library(ggplot2)
 
 ggplot(aes(x, y)) + geom_point()
 
+# Exploring more data sets: 
 data()
+
+# some examples...
 
 Tree
 Loblolly
