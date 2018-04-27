@@ -1,3 +1,4 @@
+# copy and paste into your R console and set a name at the beginning (e.g., `dragons <- `) to save the data
 structure(list(species = c("Bornean Horned Blue", "Bornean Horned Blue", 
 "Bornean Horned Blue", "Bornean Horned Blue", "Bornean Horned Blue", 
 "Bornean Horned Blue", "Bornean Horned Blue", "Bornean Horned Blue", 
